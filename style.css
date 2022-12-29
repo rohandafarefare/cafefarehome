@@ -76,7 +76,7 @@ nav{
     display: flex;
     width: 100px;
     position: absolute;
-    margin-top: -170px;
+    margin-top: -110px;
 }
 .mtxt{
     margin-top: 80px;
@@ -134,8 +134,8 @@ a{
     display: flex;
 }
 .pro{
-    width: 170px;
-    height: 170px;
+    width: 160px;
+    height: 160px;
     border-radius: 50%;
     border: 2px solid #FFFFFF;
     margin-top: 250px;
@@ -144,7 +144,7 @@ a{
 .name{
     position: absolute;
     color: #fff;
-    width: 174px;
+    width: 164px;
     margin-top: 450px;
     font-size: 20px;
     align-items: center;
@@ -153,7 +153,7 @@ a{
 .ntitle{
     position: absolute;
     color: #fff;
-    width: 174px;
+    width: 164px;
     margin-top: 480px;
     font-size: 16px;
     align-items: center;
@@ -164,7 +164,8 @@ a{
     height: 18px;
     margin-top: 507px;
     position: absolute;
-    
+    border-right: 1px solid #fff;
+    padding-right: 10px;
     margin-left: 30px;
 }
 .pgif{
@@ -172,6 +173,8 @@ a{
     height: 18px;
     margin-top: 507px;
     position: absolute;
+    border-right: 1px solid #fff;
+    padding-right: 10px;
     margin-left: 10px;
 }
 .uname a{
@@ -183,14 +186,14 @@ a{
     width: 150px;
     color: #fff;
     margin-top: 505px;
-    margin-left: 10px;
+    margin-left: 20px;
     align-items: center;
     text-align: center;
 }
 .iglogo{
-    margin-top: 100px;
+    margin-top: 250px;
     width: 120px;
-    margin-left: 20px;
+    margin-left: -300px;
     border-right: 2px solid #fff;
     padding-right: 20px;
 }
@@ -200,6 +203,8 @@ a{
     margin-top: 350px;
     display: flex;
     position: relative;
+    justify-content: center;
+    margin-bottom: 60px;
 }
 .follow a{
     text-decoration: none;
@@ -213,8 +218,8 @@ a{
     font-size: 30px;
     display: flex;
     color: #fff;
-    margin-top: -110px;
-    margin-left: 215px;
+    margin-top: -100px;
+    margin-left: -100px;
 }
 .utxt{
     position: absolute;
@@ -225,7 +230,7 @@ a{
     display: flex;
     color: #fff;
     margin-top: -60px;
-    margin-left: 200px;
+    margin-left: -115px;
 }
 .footer a{
     z-index: 1;
@@ -235,4 +240,59 @@ a{
     justify-content: center;
     margin-bottom: 20px;
     margin-top: -50px;
+}
+.iname{
+    /* position: absolute; */
+    margin-top: -10px;
+    width: 250px;
+    height: 30px;
+    border-radius: 7px;
+    border: 2px solid #fff;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    background: #000000;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+}
+.inum{
+    margin-top: 20px;
+    width: 250px;
+    height: 30px;
+    border-radius: 7px;
+    border: 2px solid #fff;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    background: #000000;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+}
+.btn{
+    background: #000000;
+    color: #fff;
+    font-size: 16px;
+    width: 100px;
+    display: flex;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 7px;
+    border: 2px solid #fff;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+::placeholder{
+    color: #fff;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
 }
