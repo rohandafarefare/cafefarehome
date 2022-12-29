@@ -61,8 +61,9 @@
     <div class="follow" id="follow">
         <form name="submit-to-google-sheet">
             <input type="text" name="Name" class="iname" placeholder="Cafe / Restaurant Name" required>
-            <input type="number" name="Number" class="inum" placeholder="Phone Number" required>
+            <input type="tel" name="Number" class="inum" placeholder="Phone Number" required>
             <button type="submit" class="btn">Submit</button>
+            <span class="msg" id="msg"></span>
         </form>
         <a href="https://instagram.com/getcafefare">
             <img src="image/insta.gif" class="iglogo">
@@ -74,4 +75,23 @@
         <a href="#">©️ Cafe Fare</a>
     </span>
 </body>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbz8rXBIO9keSXtxupYfgKsGdkWlEtjJjUPAV7GItx2cRYIaWyushHEoMKmUiNo49pc/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Sent"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
 </html>

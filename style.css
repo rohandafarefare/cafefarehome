@@ -274,6 +274,13 @@ a{
     font-style: normal;
     font-weight: 400;
 }
+.msg{
+    color: rgb(72, 255, 0);
+    position: absolute;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 110px;
+}
 .btn{
     background: #000000;
     color: #fff;
