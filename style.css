@@ -1,0 +1,238 @@
+html{
+    scroll-behavior: smooth;
+}
+*:focus{
+    outline: none;
+}
+body{
+    width: 100%;
+    /* height: 3000px; */
+    background: #000000;
+    touch-action: pan-y;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent;
+}
+nav{
+    z-index: 1;
+    width: 100%;
+    /* height: 230px; */
+    left: 0px;
+    top: 0px;
+    background: #000000;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    /* position: absolute; */
+    display: flex;
+    width: 220px;
+    margin-top: 10px;
+}
+.welbox{
+    /* position: absolute; */
+    /* background: rgb(223, 223, 223); */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 340px;
+}
+.wtxt{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.dgif1,
+.dgif2,
+.dgif3{
+    display: flex;
+    justify-content: center;
+}
+.scrolld1{
+    display: flex;
+    width: 100px;
+    margin-top: 200px;
+
+}
+.scrolld2{
+    display: flex;
+    width: 100px;
+    margin-top: 50px;
+}
+.scrolld3{
+    display: flex;
+    width: 100px;
+    position: absolute;
+    margin-top: -170px;
+}
+.mtxt{
+    margin-top: 80px;
+    margin-left: -10px;
+}
+a{
+    text-decoration: none;
+}
+.cfp{
+    padding-top: 100px;
+    width: 100%;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    justify-content: center;
+    
+}
+.cfweb{
+    width: 260px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+.team{
+    width: 100%;
+    height: 100vh;
+    margin-top: 100px;
+    display: flex;
+    background: #000000;
+    justify-content: space-evenly;
+}
+.ttxt{
+    position: absolute;
+    display: block;
+    margin-top: 110px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+.rohan{
+    display: flex;
+}
+.pranjali{
+    display: flex;
+}
+.pro{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    border: 2px solid #FFFFFF;
+    margin-top: 250px;
+    position: relative;
+}
+.name{
+    position: absolute;
+    color: #fff;
+    width: 174px;
+    margin-top: 450px;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+}
+.ntitle{
+    position: absolute;
+    color: #fff;
+    width: 174px;
+    margin-top: 480px;
+    font-size: 16px;
+    align-items: center;
+    text-align: center;
+}
+.rgif{
+    width: 18px;
+    height: 18px;
+    margin-top: 507px;
+    position: absolute;
+    
+    margin-left: 30px;
+}
+.pgif{
+    width: 18px;
+    height: 18px;
+    margin-top: 507px;
+    position: absolute;
+    margin-left: 10px;
+}
+.uname a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.uname{
+    position: absolute;
+    width: 150px;
+    color: #fff;
+    margin-top: 505px;
+    margin-left: 20px;
+    align-items: center;
+    text-align: center;
+}
+.iglogo{
+    margin-top: 100px;
+    width: 120px;
+    margin-left: 20px;
+    border-right: 2px solid #fff;
+    padding-right: 20px;
+}
+.follow{
+    width: 100%;
+    height: 70vh;
+    margin-top: 350px;
+    display: flex;
+    position: relative;
+}
+.follow a{
+    text-decoration: none;
+    color: #fff;
+}
+.igtxt{
+    position: absolute;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    display: flex;
+    color: #fff;
+    margin-top: -110px;
+    margin-left: 215px;
+}
+.utxt{
+    position: absolute;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    display: flex;
+    color: #fff;
+    margin-top: -60px;
+    margin-left: 200px;
+}
+.footer a{
+    z-index: 1;
+    color: #fff;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: -50px;
+}
