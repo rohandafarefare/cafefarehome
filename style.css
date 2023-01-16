@@ -171,7 +171,7 @@ a{
 .name{
     position: absolute;
     color: #fff;
-    width: 164px;
+    width: 180px;
     margin-top: 450px;
     font-size: 22px;
     align-items: center;
@@ -187,7 +187,6 @@ a{
     text-align: center;
 }
 .p-name{
-    width: 70px;
     position: absolute;
     color: #fff;
     margin-top: 450px;
