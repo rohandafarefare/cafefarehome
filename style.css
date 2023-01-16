@@ -187,6 +187,7 @@ a{
     text-align: center;
 }
 .p-name{
+    width: 70px;
     position: absolute;
     color: #fff;
     margin-top: 450px;
