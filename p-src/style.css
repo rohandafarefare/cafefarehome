@@ -76,6 +76,43 @@ a{
     margin-left: 55.5%;
     margin-top: 10px;  
 }
+.socialicons{
+    position: absolute;
+    margin-top: 430px;
+    margin-left: 53.5%
+}
+.i1{
+    width: 50px;
+    position: absolute;
+    display: flex;
+    margin-left: 80px;
+    margin-top: 60px;
+    /* border: 1px solid #fff; */
+}
+.i2{
+    width: 50px;
+    position: absolute;
+    display: flex;
+    margin-left: 150px;
+    margin-top: 60px;
+    /* border: 1px solid #fff; */
+}
+.i3{
+    width: 50px;
+    position: absolute;
+    display: flex;
+    margin-left: 220px;
+    margin-top: 60px;
+    /* border: 1px solid #fff; */
+}
+.i4{
+    width: 50px;
+    position: absolute;
+    display: flex;
+    margin-left: 290px;
+    margin-top: 65px;
+    /* border: 1px solid #fff; */
+}
 .container-2{
     display: none;
 }
@@ -137,6 +174,7 @@ a{
     .socialicons{
         position: fixed;
         margin-top: 420px;
+        margin-left: 0;
     }
     .container-2{
         display: block;
@@ -201,7 +239,7 @@ a{
         display: flex;
         align-items: center;
         text-align: center;
-        margin-left: 130px;
+        margin-left: 125px;
     }
     .list{
         color: #fff;
@@ -216,13 +254,13 @@ a{
     .hbtn{
         width: 50px;
         /* background: #fff; */
-        margin-left: 180px;
+        margin-left: 190px;
         margin-top: 80px;
     }
     .footer{
         position: absolute;
         margin-top: 160px;
-        margin-left: -75px;
+        margin-left: -80px;
         font-size: 20px;
     }
 }
