@@ -142,6 +142,16 @@ body{
         border-top-left-radius: 50px;
         border-top-right-radius: 50px;
     }
+    .line{
+        position: absolute;
+        width: 120px;
+        /* color: #fff; */
+        margin-top: 20px;
+        /* background: #fff; */
+        margin-left: 147px;
+        border: 2px solid #fff;
+        border-radius: 5px;
+    }
     .i1{
         width: 50px;
         position: absolute;
