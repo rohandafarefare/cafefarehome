@@ -18,6 +18,10 @@ body{
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     -webkit-tap-highlight-color: transparent;
 }
+a{
+    text-decoration: none;
+    color: #fff;
+}
 .bgoflogo{
     width: 100%;
     background: #fff;
@@ -73,8 +77,9 @@ body{
     margin-top: 10px;  
 }
 .container-2{
-        display: none;
+    display: none;
 }
+
 
 /* For Mobile Screens */
 @media only screen and (max-width: 600px){
@@ -129,12 +134,16 @@ body{
         margin-top: 420px;  
         position: fixed;
     }
+    .socialicons{
+        position: fixed;
+        margin-top: 420px;
+    }
     .container-2{
         display: block;
         position: absolute;
         z-index: 100;
         width: 100%;
-        margin-top: 115%;
+        margin-top: 130%;
         margin-left: -1px;
         height: 810px;
         background: #000000;
@@ -188,7 +197,7 @@ body{
         color: #fff;
         font-size: 50px;
         position: absolute;
-        margin-top: 180px;
+        margin-top: 90px;
         display: flex;
         align-items: center;
         text-align: center;
@@ -198,10 +207,22 @@ body{
         color: #fff;
         font-size: 24px;
         line-height: 50px;
-        margin-top: 300px;
+        margin-top: 200px;
         display: flex;
         align-items: center;
         justify-content: center;
         text-align: center;
+    }
+    .hbtn{
+        width: 50px;
+        /* background: #fff; */
+        margin-left: 190px;
+        margin-top: 80px;
+    }
+    .footer{
+        position: absolute;
+        margin-top: 160px;
+        margin-left: -80px;
+        font-size: 20px;
     }
 }
