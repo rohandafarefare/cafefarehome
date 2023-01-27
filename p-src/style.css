@@ -77,6 +77,7 @@ a{
     margin-top: 10px;  
 }
 .socialicons{
+    z-index: 2;
     position: absolute;
     margin-top: 430px;
     margin-left: 53.5%
