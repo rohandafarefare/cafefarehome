@@ -59,7 +59,7 @@ body{
     background: none;
     width: 80%;
     /* border: 1px solid #fff; */
-    height: 100vh;
+    height: auto;
     margin-right: auto;
     margin-left: auto;
     /* position: absolute; */
@@ -95,7 +95,7 @@ body{
     background: none;
     width: 80%;
     /* border: 1px solid #fff; */
-    height: 100vh;
+    height: auto;
     margin-right: auto;
     margin-left: auto;
     /* position: absolute; */
@@ -116,7 +116,7 @@ body{
     margin-right: auto;
     margin-left: auto;
     width: 80%;
-    height: 100vh;
+    height: auto;
     align-items: center;
     text-align: center;
 }
@@ -388,7 +388,7 @@ a{
     }
     .container-1{
         width: 90%;
-        height: 100vh;
+        height: auto;
         margin-top: 0;
         display: flex;
         justify-content: center;
