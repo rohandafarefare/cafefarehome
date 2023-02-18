@@ -14,3 +14,48 @@
         })
         .catch(error => console.error('Error!', error.message))
     });
+
+    
+
+
+
+            function showOrHide1() {
+            var ans = document.getElementById("sh1");
+            if (ans.style.display === "none") {
+               ans.style.display = "block";
+            } else {
+               ans.style.display = "none";
+            }
+         }
+         function showOrHide2() {
+            var ans = document.getElementById("sh2");
+            if (ans.style.display === "none") {
+               ans.style.display = "block";
+            } else {
+               ans.style.display = "none";
+            }
+         }
+         function showOrHide3() {
+            var ans = document.getElementById("sh3");
+            if (ans.style.display === "none") {
+               ans.style.display = "block";
+            } else {
+               ans.style.display = "none";
+            }
+         }
+         function showOrHide4() {
+            var ans = document.getElementById("sh4");
+            if (ans.style.display === "none") {
+               ans.style.display = "block";
+            } else {
+               ans.style.display = "none";
+            }
+         }
+         function showOrHide5() {
+            var ans = document.getElementById("sh5");
+            if (ans.style.display === "none") {
+               ans.style.display = "block";
+            } else {
+               ans.style.display = "none";
+            }
+         }
