@@ -116,7 +116,7 @@ body{
     margin-right: auto;
     margin-left: auto;
     width: 80%;
-    height: auto;
+    height: 100vh;
     align-items: center;
     text-align: center;
 }
