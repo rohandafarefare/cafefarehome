@@ -1,14 +1,7 @@
-html{
-    display: flex;
-    justify-content: center;
-    margin-left: -7px;
-    scroll-behavior: smooth;
-}
-body{
-    width: 100%;
-    /* height: 1000px; */
-    background: #fff;
-    font-family: "Raleway", sans-serif;
+html,body{
+    padding: 0;
+    margin: 0;
+    background: #000;
     touch-action: pan-y;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -21,254 +14,153 @@ body{
 }
 a{
     text-decoration: none;
-    color: #fff;
 }
-.bgoflogo{
+nav{
     width: 100%;
-    background: #fff;
-    /* border: 1px solid #000000; */
+    height: 60px;
     display: flex;
+    /* margin-top: -50px; */
     justify-content: center;
-    margin-top: -10px;
     position: fixed;
-    z-index: 1;
+    background: #fff;
+    /* position: relative; */
+    /* border: 1px dashed #000; */
 }
 .logo{
-    width: 400px;
+    width: 200px;
+    /* border: 1px dashed #000; */
 }
-.container{
-    margin-top: 200px;
-    width: 100%;
-    height: 500px;
-    /* border: 1px solid #000000; */
-    position: relative;
-    font-family: "Raleway";
-    position: fixed;
-}
-.pro{
-    width: 270px;
-    height: 270px;
-    border-radius: 50%;
-    /* border: 1px solid #000000; */
+#wrapper{
     position: absolute;
-    margin-top: 70px;
-    margin-left: 25%;
-    filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.75));
-    /* position: fixed; */
+    height: 100%;
+    width: 100%;
+}
+.panels{
+    position: relative;
+    height: 100%;
+    min-height: 100%;
+    width: 100%;
+    z-index: 1000;
+    /* border: 1px dashed #ff2e2e; */
+}
+#a{
+    background: #fff;
+    position: fixed;
+    top: 0;
+    z-index: -99;
+    margin-top: -50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* border: 1px dashed #000; */
+}
+#b{
+    margin-top: 80vh;
+    /* height: 90vh; */
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    /* border: 1px dashed #000; */
+}
+.pro_pic{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    /* margin-top: -150px; */
+    margin-right: auto;
+    margin-left: auto;
+    z-index: 0;
+    filter: drop-shadow(0px 4px 10px rgb(0, 0, 0.27));
+    /* border: 1px dashed #000; */
 }
 .name{
-    /* position: absolute; */
-    font-size: 60px;
-    /* width: 100%; */
-    font-style: normal;
-    font-weight: 400;
-    color: #000000;
-    display: flex;
-    margin-left: 55%;
-    margin-top: 150px;  
+    margin-top: 20px;
+    font-size: 50px;
+    font-weight: 600;
+    /* border: 1px dashed #000; */
 }
 .title{
-    font-size: 40px;
-    /* width: 100%; */
-    font-style: normal;
-    font-weight: 400;
-    color: #000000;
-    display: flex;
-    margin-left: 55.5%;
-    margin-top: 10px;  
+    font-size: 26px;
+    margin-top: 10px;
+    /* border: 1px dashed #000; */
 }
 .socialicons{
-    z-index: 2;
-    position: absolute;
-    margin-top: 430px;
-    margin-left: 53.5%
-}
-.i1{
-    width: 50px;
-    position: absolute;
+    width: 100%;
     display: flex;
-    margin-left: 80px;
-    margin-top: 60px;
-    /* border: 1px solid #fff; */
+    /* position: fixed; */
+    /* padding-top: 100px; */
+    justify-content: center;
+    /* border: 1px dashed #000; */
+    position: relative;
+    /* margin-top: 10px; */
 }
-.i2{
-    width: 50px;
+.icon{
+    color: #000;
+    font-size: 60px;
+    margin: 15px;
+    /* border: 1px dashed #000; */
+}
+.line{
     position: absolute;
+    width: 120px;
+    /* color: #fff; */
+    top: 20px;
+    left: 0;
+    right: 0;
+    /* background: #fff; */
+    border: 2px solid #fff;
+    border-radius: 5px;
+    filter: drop-shadow(0px 4px 10px rgb(255, 255, 255));
+}
+.ctxt{
+    color: #fff;
+    font-size: 50px;
+    /* position: absolute; */
+    margin-top: -20px;
     display: flex;
-    margin-left: 150px;
-    margin-top: 60px;
-    /* border: 1px solid #fff; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* margin-left: 125px; */
 }
-.i3{
-    width: 50px;
-    position: absolute;
+.list{
+    color: #fff;
+    font-size: 24px;
+    line-height: 50px;
+    margin-top: 20px;
     display: flex;
-    margin-left: 220px;
-    margin-top: 60px;
-    /* border: 1px solid #fff; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
-.i4{
-    width: 50px;
-    position: absolute;
+#footer{
     display: flex;
-    margin-left: 290px;
-    margin-top: 65px;
-    /* border: 1px solid #fff; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    bottom: 0;
 }
-.container-2{
-    display: none;
+.hbtn{
+    display: flex;
+    font-size: 40px;
+    color: #fff;
+    justify-content: center;
+    margin: 50px;
 }
-
-
-/* For Mobile Screens */
-@media only screen and (max-width: 600px){
-    .logo{
-        width: 200px;
-        margin-top: 15px;
-    }
-    .bgoflogo{
-        /* border: 1px solid #000000; */
-    }
-    .container{
-        margin-top: 20px;
-        width: 100%;
-        height: 550px;
-        /* border: 1px solid #000000; */
-        position: relative;
-        display: flex;
-        justify-content: center;
-        position: fixed;
-    }
-    .pro{
-        width: 270px;
-        border-radius: 50%;
-        /* border: 1px solid #000000; */
-        margin-left: 0;
-        /* margin-top: 60px; */
-        position: fixed;
-        z-index: 0;
-    }
-    .name{
-        position: absolute;
-
-        font-size: 40px;
-        font-style: normal;
-        font-weight: 400;
-        color: #000000;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        margin-top: 370px;
-        margin-left: 0;  
-        position: fixed;
-    }
-    .title{
-        /* display: none; */
-        font-size: 20px;
-        font-style: normal;
-        /* font-weight: 400; */
-        color: #000000;
-        display: flex;
-        margin-left: 0;
-        margin-top: 420px;  
-        position: fixed;
-    }
-    .socialicons{
-        position: fixed;
-        margin-top: 420px;
-        margin-left: 0;
-    }
-    .container-2{
-        display: block;
-        position: absolute;
-        z-index: 100;
-        width: 100%;
-        margin-top: 130%;
-        margin-left: -1px;
-        height: 810px;
-        background: #000000;
-        /* border-radius: 50px; */
-        border-top-left-radius: 50px;
-        border-top-right-radius: 50px;
-        filter: drop-shadow(0px 8px 20px rgba(0, 0, 0, 0.75));
-    }
-    .line{
-        position: absolute;
-        width: 120px;
-        /* color: #fff; */
-        margin-top: 20px;
-        /* background: #fff; */
-        margin-left: 147px;
-        border: 2px solid #fff;
-        border-radius: 5px;
-        filter: drop-shadow(0px 4px 10px rgb(255, 255, 255));
-    }
-    .i1{
-        width: 50px;
-        position: absolute;
-        display: flex;
-        margin-left: 80px;
-        margin-top: 60px;
-        /* border: 1px solid #fff; */
-    }
-    .i2{
-        width: 50px;
-        position: absolute;
-        display: flex;
-        margin-left: 150px;
-        margin-top: 60px;
-        /* border: 1px solid #fff; */
-    }
-    .i3{
-        width: 50px;
-        position: absolute;
-        display: flex;
-        margin-left: 220px;
-        margin-top: 60px;
-        /* border: 1px solid #fff; */
-    }
-    .i4{
-        width: 50px;
-        position: absolute;
-        display: flex;
-        margin-left: 290px;
-        margin-top: 65px;
-        /* border: 1px solid #fff; */
-    }
-    .ctxt{
-        color: #fff;
-        font-size: 50px;
-        position: absolute;
-        margin-top: 90px;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        margin-left: 125px;
-        /* filter: drop-shadow(0px 14px 30px rgb(255, 255, 255)); */
-    }
-    .list{
-        color: #fff;
-        font-size: 24px;
-        line-height: 50px;
-        margin-top: 200px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
-    .hbtn{
-        width: 50px;
-        /* background: #fff; */
-        margin-left: 190px;
-        margin-top: 50px;
-        /* filter: drop-shadow(0px 4px 5px rgb(80, 80, 80)); */
-    }
-    .footer{
-        position: absolute;
-        margin-top: 120px;
-        margin-left: -83px;
-        font-size: 20px;
-        color: #fff;
-        background: #000000;
-    }
+.ftxt{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    /* margin-top: 120px; */
+    font-size: 20px;
+    color: #fff;
 }
